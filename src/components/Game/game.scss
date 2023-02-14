@@ -1,0 +1,76 @@
+@use "../../sass/settings/var";
+@use "../../sass/tools/tools";
+@use "../../sass/components/square";
+@use "../../sass/components/title";
+
+.Game {
+    &-wrapper {
+        @include tools.center();
+        @include tools.flex($gap: var.$space-sm);
+        margin-top: var.$space-sm;
+        flex-wrap: wrap;
+    }
+
+    &-board,
+    &-turn {
+        border-radius: var.$primary-radius;
+        padding: var.$space-sm;
+    }
+}
+
+.Board {
+    @include tools.grid($columns: repeat(7, 1fr), $rows: repeat(6, 1fr), $gap: var.$space-sm);
+    background-color: var.$board-bg;
+
+    &-square {
+        @extend %square;
+
+        &.red {
+            @extend %square--red;
+        }
+
+        &.yellow {
+            @extend %square--yellow;
+        }
+
+        &.not-selected {
+            @extend %square--not-selected;
+        }
+
+        &.not-events {
+            @extend %square--not-events;
+        }
+    }
+}
+
+.Turn {
+    @include tools.flex($gap: var.$space-sm, $direction: column);
+    background-color: var.$secondary-bg;
+    width: 100%;
+    max-width: 11rem;
+
+    &-title {
+        @extend %title;
+        font-size: var.$primary-size;
+    }
+
+    &-wrapper {
+        @include tools.flex($gap: var.$space-sm, $direction: row);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Game-wrapper {
+        justify-content: center;
+    }
+
+    .Turn {
+        max-width: 36rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .Board-square {
+        padding: 14px;
+    }
+}

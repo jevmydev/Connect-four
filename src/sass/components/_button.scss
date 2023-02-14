@@ -1,0 +1,17 @@
+@use "../settings/var";
+
+%button {
+    cursor: pointer;
+    transition: background-color 0.12s;
+    width: 100%;
+    font-weight: 700;
+    font-family: var.$primary-font;
+    font-size: var.$primary-size;
+    border-radius: var.$secondary-radius;
+    background-color: var.$primary-color;
+    padding: var.$space-xsm var.$space-sm;
+}
+
+%button:hover {
+    background-color: var.$color-white;
+}

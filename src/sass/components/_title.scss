@@ -1,0 +1,10 @@
+@use "../../sass/settings/var";
+
+%title {
+    font-size: var.$size-title;
+    font-weight: 700;
+    background-image: var.$primary-gradient;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

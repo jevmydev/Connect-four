@@ -1,0 +1,33 @@
+@use "../../sass/settings/var";
+@use "../../sass/tools/tools";
+@use "../../sass/components/title";
+@use "../../sass/components/button";
+
+.Winner {
+    @include tools.flex($align: center, $justify: center);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(0.2rem);
+    background-color: var.$primary-bg-opacity;
+
+    &-wrapper {
+        @include tools.center();
+        @include tools.flex($align: center, $direction: column, $gap: var.$space-lg);
+        position: absolute;
+        z-index: 2;
+        border-radius: var.$primary-radius;
+        background-color: var.$color-black;
+    }
+
+    &-title {
+        @extend %title;
+    }
+
+    &-button {
+        @extend %button;
+    }
+}
