@@ -1,7 +1,7 @@
 {
     "name": "connect-four",
     "short_name": "connect-four",
-    "description": "Connect Four. Dos jugadores, eligan su color y conecten una fila o columna de sus cuatro fichas.",
+    "description": "Connect Four. Dos jugadores, elijan su color y conecten una fila o columna de sus cuatro fichas.",
     "keywords": ["Connect Four", "Conecta cuatro", "Conecta 4", "Jeremy Díaz", "jevmydev"],
     "author": "Jeremy Díaz",
     "repository": {

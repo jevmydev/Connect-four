@@ -1,6 +1,6 @@
 # Connect Four 🎮
 
-Dos **jugadores**, eligan su **color** y conecten una fila o columna de sus **cuatro fichas**.
+Dos **jugadores**, elijan su **color** y conecten una fila o columna de sus **cuatro fichas**.
 
 👉 Enlace: [https://connectfourdev.netlify.app/](https://connectfourdev.netlify.app/)  
 📢 Feats:   
