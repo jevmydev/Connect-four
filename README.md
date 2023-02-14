@@ -3,11 +3,11 @@
 Dos **jugadores**, eligan su **color** y conecten una fila o columna de sus **cuatro fichas**.
 
 👉 Enlace: [https://connectfourdev.netlify.app/](https://connectfourdev.netlify.app/)  
-📢 Feats: 
-    - Auto guardado de partidas con la Api de localStorage.  
-    - Validación de ganadores.
-    - Opción volver a empezar.  
-    - Juega en cualquier resolución.  
+📢 Feats:   
+- Auto guardado de partidas con la Api de localStorage.  
+- Validación de ganadores.
+- Opción volver a empezar.  
+- Juega en cualquier resolución.  
 
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="Icono de HTML">
