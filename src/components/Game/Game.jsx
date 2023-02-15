@@ -12,7 +12,7 @@ export function Game() {
     return (
         <section className="Main-game Game">
             <div className="Game-wrapper">
-                <div className="Game-board Board">
+                <div className="Game-board Board" data-testid="board">
                     {board.map((squareTurn, index) => (
                         <Square key={index} index={index} squareTurn={squareTurn} updateBoard={updateBoard} />
                     ))}
