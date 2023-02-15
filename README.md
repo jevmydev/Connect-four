@@ -3,6 +3,7 @@
 Dos **jugadores**, elijan su **color** y conecten una fila o columna de sus **cuatro fichas**.
 
 👉 Enlace: [https://connectfourdev.netlify.app/](https://connectfourdev.netlify.app/)  
+
 📢 Feats:   
 - Auto guardado de partidas con la Api de localStorage.  
 - Validación de ganadores.
