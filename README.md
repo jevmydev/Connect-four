@@ -28,3 +28,17 @@ Dos **jugadores**, elijan su **color** y conecten una fila o columna de sus **cu
 Puedes jugar cuantas veces quieras.  
 
 ![Películas de Movies](./images/readme/winner.png)
+
+# Instalación y uso 🎖️
+
+**¡Código abierto al mundo!**    
+
+- Puedes utilizar el producto realizando un `https://github.com/jevmydev/Connect-four` en tu terminal.  
+- Luego emplear `npm run dev` en tu terminal para desplegar un entorno de desarrollo en la web.  
+
+También dispones de: 
+
+- `npm run build`: Empaquetar los módulos y construir un distribuible. 
+- `npm run preview`: Despliege de un entorno de preview del distribuible.  
+- `npm run lint`: Ejecutar eslint y arreglar los errores en el código.   
+- `npm run format`: Ejecutar prettier y formatear el código.  
